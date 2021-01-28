@@ -15,7 +15,7 @@ class usuarioSeeder extends Seeder
     {
         Usuario::create([
             'usuario' => 'topcom', 
-            'password' => bcrypt('tsw.2021'),
+            'password' => hash('ripemd160', 'tsw.2021'),
             'nombre' => 'topcom', 
             'curp' => 'topcom', 
             'rfc' => 'topcom', 

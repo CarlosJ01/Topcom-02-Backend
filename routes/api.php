@@ -17,6 +17,9 @@ Route::group(['prefix' => 'web-services'], function () {
     Route::group(['middleware' => ['cors']], function () {
         Route::get('get-articulos', 'ArticulosController@getArticulos');
         Route::post('registro-usuarios', 'UsuarioController@registrar');
+        Route::post('login', 'UsuarioController@login');
+        Route::post('login', 'UsuarioController@login');
+
     });
 });
 
