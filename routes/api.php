@@ -13,6 +13,15 @@ use Illuminate\Http\Request;
 |
 */
 
+Route::group(['prefix' => 'web-services'], function () {
+    Route::group(['middleware' => ['cors']], function () {
+        Route::get('registro-usuarios', 'UsuarioController@registrar');
+        Route::post('registro-usuarios', 'UsuarioController@registrar');
+    });
+    /* Route::post('login', ''); */
+});
+
+
 Route::middleware('auth:api')->get('/user', function (Request $request) {
     return $request->user();
 });

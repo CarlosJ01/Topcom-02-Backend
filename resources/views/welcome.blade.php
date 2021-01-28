@@ -66,11 +66,7 @@
     <body>
         <div class="flex-center position-ref full-height">
             <div class="top-right links">
-                @auth
-                    <a href="{{ url('/home') }}">Home</a>
-                @else
-                    <a href="{{ url('/login') }}">Login</a>
-                @endauth
+                <a href="{{ url('/login') }}">Login</a>
             </div>
 
             <div class="content">
@@ -79,7 +75,7 @@
                 </div>
 
                 <div class="links">
-                    <a href="https://laravel.com/docs">Docs</a>
+                    <a href="/api/web-services/registro-usuarios">Registro</a>
                     <a href="https://laracasts.com">Laracasts</a>
                     <a href="https://laravel-news.com">News</a>
                     <a href="https://blog.laravel.com">Blog</a>

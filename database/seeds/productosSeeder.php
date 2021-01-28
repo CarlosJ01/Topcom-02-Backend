@@ -15,7 +15,7 @@ class productosSeeder extends Seeder
         /* Monitores */
         $nuevoProducto = new Articulo();
         $nuevoProducto->nombre = 'MONITOR GAMER AORUS KD25F 24.5"';
-        $nuevoProducto->descripcion = 'Gigabyte AORUS KD25F. Diagonal de la pantalla: 62.2 cm (24.5"), Resolución de la pantalla: 1920 x 1080 Pixeles, Tipo HD: Full HD, Tecnología de visualización: LED, Superficie de la pantalla: Mate, Tiempo de respuesta: 0.5 ms, Relación de aspecto nativa: 16:9, Ángulo de visión, horizontal: 170°, Ángulo de visión, vertical: 160°. Concentrador USB integrado, Versión del concentrador USB: 3.2 Gen 1 (3.1 Gen 1).';
+        $nuevoProducto->descripcion = 'Resolución de la pantalla: 1920 x 1080 Pixeles, Tipo HD: Full HD, Tecnología de visualización: LED, Superficie de la pantalla: Mate, Tiempo de respuesta: 0.5 ms, Relación de aspecto nativa: 16:9, Ángulo de visión, horizontal: 170°, Ángulo de visión, vertical: 160°. Concentrador USB integrado, Versión del concentrador USB: 3.2 Gen 1 (3.1 Gen 1).';
         $nuevoProducto->precio = '11,159.20';
         $nuevoProducto->imagen = '/img/productos/monitores/07.jpg';
         $nuevoProducto->stock = 33;
@@ -145,8 +145,7 @@ class productosSeeder extends Seeder
 
         $nuevoProducto = new Articulo();
         $nuevoProducto->nombre = 'PROCESADOR AMD RYZEN 5 2600';
-        $nuevoProducto->descripcion = '
-        AMD Ryzen 5 2600. Familia de procesador: AMD Ryzen 5, Frecuencia del procesador: 3.4 GHz, Socket de procesador: Enchufe AM4. Canales de memoria: Dual-channel, Tipos de memoria soportados por el procesador: DDR4-SDRAM, Velocidades de memoria del reloj soportadas por el procesador: 2933 MHz. Potencia de diseño térmico (TDP): 65 W. Configuraciones PCI Express: 1x16';
+        $nuevoProducto->descripcion = 'Frecuencia del procesador: 3.4 GHz, Socket de procesador: Enchufe AM4. Canales de memoria: Dual-channel, Tipos de memoria soportados por el procesador: DDR4-SDRAM, Velocidades de memoria del reloj soportadas por el procesador: 2933 MHz. Potencia de diseño térmico (TDP): 65 W. Configuraciones PCI Express: 1x16';
         $nuevoProducto->precio = '3,192.32';
         $nuevoProducto->imagen = '/img/productos/procesadoresGraficas/02.jpg';
         $nuevoProducto->stock = 4;
@@ -162,7 +161,7 @@ class productosSeeder extends Seeder
 
         $nuevoProducto = new Articulo();
         $nuevoProducto->nombre = 'PROCESADOR INTEL CORE I9-9900K OCTAC 3.6GHZ';
-        $nuevoProducto->descripcion = 'Intel Core i9-9900K. Familia de procesador: 9na generación de procesadores Intel® Core™ i9, Frecuencia del procesador: 3.6 GHz, Socket de procesador: LGA 1151 (Zócalo H4). Canales de memoria: Dual-channel, Máxima memoria interna soportada por el procesador: 64 GB, Tipos de memoria soportados por el procesador: DDR4-SDRAM. Modelo de gráficos en tarjeta: Intel® UHD Graphics 630';
+        $nuevoProducto->descripcion = 'Frecuencia del procesador: 3.6 GHz, Socket de procesador: LGA 1151 (Zócalo H4). Canales de memoria: Dual-channel, Máxima memoria interna soportada por el procesador: 64 GB, Tipos de memoria soportados por el procesador: DDR4-SDRAM. Modelo de gráficos en tarjeta: Intel® UHD Graphics 630';
         $nuevoProducto->precio = '12,998.96';
         $nuevoProducto->imagen = '/img/productos/procesadoresGraficas/04.jpg';
         $nuevoProducto->stock = 1;
@@ -170,7 +169,7 @@ class productosSeeder extends Seeder
 
         $nuevoProducto = new Articulo();
         $nuevoProducto->nombre = 'TARJETA DE VIDEO ASUS ROG-STRIX-RXVEGA64';
-        $nuevoProducto->descripcion = 'ASUS ROG-STRIX-RXVEGA64-O8G-GAMING. Familia de procesadores de gráficos: AMD, Procesador gráfico: Radeon RX Vega 64, Frecuencia del procesador: 1298 MHz. Capacidad memoria de adaptador gráfico: 8 GB, Bus de memoria: 2048 Bit, Velocidad de memoria del reloj: 945 MHz. Máxima resolución: 7680 x 4320 Pixeles. Versión OpenGL: 4.5. Tipo de interfaz: PCI Express 3.0.';
+        $nuevoProducto->descripcion = 'Procesador gráfico: Radeon RX Vega 64, Frecuencia del procesador: 1298 MHz. Capacidad memoria de adaptador gráfico: 8 GB, Bus de memoria: 2048 Bit, Velocidad de memoria del reloj: 945 MHz. Máxima resolución: 7680 x 4320 Pixeles. Versión OpenGL: 4.5. Tipo de interfaz: PCI Express 3.0.';
         $nuevoProducto->precio = '20,396.28';
         $nuevoProducto->imagen = '/img/productos/procesadoresGraficas/05.jpg';
         $nuevoProducto->stock = 2;
@@ -178,7 +177,7 @@ class productosSeeder extends Seeder
 
         $nuevoProducto = new Articulo();
         $nuevoProducto->nombre = 'TARJETA DE VIDEO MSI NVIDIA GEFORCE GTX 1650';
-        $nuevoProducto->descripcion = 'MSI GeForce GTX 1650 SUPER GAMING X. Familia de procesadores de gráficos: NVIDIA, Procesador gráfico: GeForce GTX 1650 SUPER. Capacidad memoria de adaptador gráfico: 4 GB, Tipo de memoria de adaptador gráfico: GDDR6, Bus de memoria: 128 Bit. Máxima resolución: 7680 x 4320 Pixeles. Versión DirectX: 12.0, Versión OpenGL: 4.6. Tipo de interfaz: PCI Express x16 3.0';
+        $nuevoProducto->descripcion = 'Procesador gráfico: GeForce GTX 1650 SUPER. Capacidad memoria de adaptador gráfico: 4 GB, Tipo de memoria de adaptador gráfico: GDDR6, Bus de memoria: 128 Bit. Máxima resolución: 7680 x 4320 Pixeles. Versión DirectX: 12.0, Versión OpenGL: 4.6. Tipo de interfaz: PCI Express x16 3.0';
         $nuevoProducto->precio = '5,699.08';
         $nuevoProducto->imagen = '/img/productos/procesadoresGraficas/06.jpg';
         $nuevoProducto->stock = 5;
@@ -284,7 +283,7 @@ class productosSeeder extends Seeder
 
         $nuevoProducto = new Articulo();
         $nuevoProducto->nombre = 'LAPTOP GAMER MSI GF63 15.6"';
-        $nuevoProducto->descripcion = 'MSI Gaming GF63 9SC-291MX Thin. Tipo de producto: Computadora portátil, Factor de forma: Concha. Familia de procesador: 9na generación de procesadores Intel® Core™ i5, Modelo del procesador: i5-9300H, Frecuencia del procesador: 2.4 GHz. Diagonal de la pantalla: 39.6 cm (15.6"), Resolución de la pantalla: 1920 x 1080 Pixeles. Memoria interna: 8 GB, Tipo de memoria interna: DDR4-SDRAM. Capacidad total de almacenaje: 256 GB.';
+        $nuevoProducto->descripcion = 'Familia de procesador: 9na generación de procesadores Intel® Core™ i5, Modelo del procesador: i5-9300H, Frecuencia del procesador: 2.4 GHz. Diagonal de la pantalla: 39.6 cm (15.6"), Resolución de la pantalla: 1920 x 1080 Pixeles. Memoria interna: 8 GB, Tipo de memoria interna: DDR4-SDRAM. Capacidad total de almacenaje: 256 GB.';
         $nuevoProducto->precio = '17,498.60';
         $nuevoProducto->imagen = '/img/productos/laptop/02.png';
         $nuevoProducto->stock = 2;
@@ -316,7 +315,7 @@ class productosSeeder extends Seeder
 
         $nuevoProducto = new Articulo();
         $nuevoProducto->nombre = 'LAPTOP LENOVO S340-15IIL';
-        $nuevoProducto->descripcion = 'Lenovo 81VW002BLM. Tipo de producto: Computadora portátil. Familia de procesador: Intel® Core™ i5 de 10ma Generación. Factor de forma: Concha. Modelo del procesador: i5-1035G1, Frecuencia del procesador: 1 GHz. Diagonal de la pantalla: 39.6 cm (15.6"), Tipo HD: HD, Resolución de la pantalla: 1366 x 768 Pixeles. Memoria interna: 12 GB, Tipo de memoria interna: DDR4-SDRAM. Capacidad total de almacenaje: 1000 GB';
+        $nuevoProducto->descripcion = 'Familia de procesador: Intel® Core™ i5 de 10ma Generación. Factor de forma: Concha. Modelo del procesador: i5-1035G1, Frecuencia del procesador: 1 GHz. Diagonal de la pantalla: 39.6 cm (15.6"), Tipo HD: HD, Resolución de la pantalla: 1366 x 768 Pixeles. Memoria interna: 12 GB, Tipo de memoria interna: DDR4-SDRAM. Capacidad total de almacenaje: 1000 GB';
         $nuevoProducto->precio = '18,049.60';
         $nuevoProducto->imagen = '/img/productos/laptop/06.jpg';
         $nuevoProducto->stock = 97;
