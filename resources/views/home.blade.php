@@ -1,3 +1,3 @@
-{{Autt::user()}}
+{{Auth::user()}}
 
-<a href=""></a>
+<a href="/logout">Salir</a>

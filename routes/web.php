@@ -20,3 +20,4 @@ Route::get('login', function () {
 });
 
 Route::post('login', 'Auth\LoginController@login');
+Route::get('logout', 'Auth\LoginController@logout');

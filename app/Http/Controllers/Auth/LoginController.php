@@ -13,7 +13,7 @@ class LoginController extends Controller {
             'password' => 'required|string'
         ]);
 
-        if (Auth::attempt($request)) {
+        if (Auth::attempt($request)) {            
             return view('home');
         }
 
