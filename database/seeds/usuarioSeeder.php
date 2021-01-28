@@ -16,11 +16,11 @@ class usuarioSeeder extends Seeder
         Usuario::create([
             'usuario' => 'topcom', 
             'password' => bcrypt('tsw.2021'),
-            'nombre' => 'root', 
-            'curp' => 'root', 
-            'rfc' => 'root', 
-            'direccion' => 'root',
-            'correo' => 'root'
+            'nombre' => 'topcom', 
+            'curp' => 'topcom', 
+            'rfc' => 'topcom', 
+            'direccion' => 'Unidad Tlateloco #135',
+            'correo' => 'topcom@mail.com'
         ]);
     }
 }
