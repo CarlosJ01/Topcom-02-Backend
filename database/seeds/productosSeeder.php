@@ -15,7 +15,7 @@ class productosSeeder extends Seeder
         /* Monitores */
         $nuevoProducto = new Articulo();
         $nuevoProducto->nombre = 'MONITOR GAMER AORUS KD25F 24.5"';
-        $nuevoProducto->descripcion = 'Resolución de la pantalla: 1920 x 1080 Pixeles, Tipo HD: Full HD, Tecnología de visualización: LED, Superficie de la pantalla: Mate, Tiempo de respuesta: 0.5 ms, Relación de aspecto nativa: 16:9, Ángulo de visión, horizontal: 170°, Ángulo de visión, vertical: 160°. Concentrador USB integrado, Versión del concentrador USB: 3.2 Gen 1 (3.1 Gen 1).';
+        $nuevoProducto->descripcion = '1920 x 1080 Pixeles, Tipo HD: Full HD, Tecnología de visualización: LED, Superficie de la pantalla: Mate, Tiempo de respuesta: 0.5 ms, Relación de aspecto nativa: 16:9, Ángulo de visión, horizontal: 170°, Ángulo de visión, vertical: 160°.';
         $nuevoProducto->precio = '11,159.20';
         $nuevoProducto->imagen = '/img/productos/monitores/07.jpg';
         $nuevoProducto->stock = 33;
@@ -283,7 +283,7 @@ class productosSeeder extends Seeder
 
         $nuevoProducto = new Articulo();
         $nuevoProducto->nombre = 'LAPTOP GAMER MSI GF63 15.6"';
-        $nuevoProducto->descripcion = 'Familia de procesador: 9na generación de procesadores Intel® Core™ i5, Modelo del procesador: i5-9300H, Frecuencia del procesador: 2.4 GHz. Diagonal de la pantalla: 39.6 cm (15.6"), Resolución de la pantalla: 1920 x 1080 Pixeles. Memoria interna: 8 GB, Tipo de memoria interna: DDR4-SDRAM. Capacidad total de almacenaje: 256 GB.';
+        $nuevoProducto->descripcion = 'Intel® Core™ i5, Modelo del procesador: i5-9300H, Frecuencia del procesador: 2.4 GHz. Diagonal de la pantalla: 39.6 cm (15.6"), Resolución de la pantalla: 1920 x 1080 Pixeles. Memoria interna: 8 GB, Tipo de memoria interna: DDR4-SDRAM. Capacidad total de almacenaje: 256 GB.';
         $nuevoProducto->precio = '17,498.60';
         $nuevoProducto->imagen = '/img/productos/laptop/02.png';
         $nuevoProducto->stock = 2;
@@ -315,7 +315,7 @@ class productosSeeder extends Seeder
 
         $nuevoProducto = new Articulo();
         $nuevoProducto->nombre = 'LAPTOP LENOVO S340-15IIL';
-        $nuevoProducto->descripcion = 'Familia de procesador: Intel® Core™ i5 de 10ma Generación. Factor de forma: Concha. Modelo del procesador: i5-1035G1, Frecuencia del procesador: 1 GHz. Diagonal de la pantalla: 39.6 cm (15.6"), Tipo HD: HD, Resolución de la pantalla: 1366 x 768 Pixeles. Memoria interna: 12 GB, Tipo de memoria interna: DDR4-SDRAM. Capacidad total de almacenaje: 1000 GB';
+        $nuevoProducto->descripcion = 'Intel® Core™ i5 de 10ma Generación. Factor de forma: Concha. Modelo del procesador: i5-1035G1, Frecuencia del procesador: 1 GHz. Diagonal de la pantalla: 39.6 cm (15.6"), Tipo HD: HD. Memoria interna: 12 GB, RAM: DDR4-SDRAM. HDD: 1000 GB';
         $nuevoProducto->precio = '18,049.60';
         $nuevoProducto->imagen = '/img/productos/laptop/06.jpg';
         $nuevoProducto->stock = 97;

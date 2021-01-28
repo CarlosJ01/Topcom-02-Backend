@@ -15,10 +15,9 @@ use Illuminate\Http\Request;
 
 Route::group(['prefix' => 'web-services'], function () {
     Route::group(['middleware' => ['cors']], function () {
-        Route::get('registro-usuarios', 'UsuarioController@registrar');
+        Route::get('get-articulos', 'ArticulosController@getArticulos');
         Route::post('registro-usuarios', 'UsuarioController@registrar');
     });
-    /* Route::post('login', ''); */
 });
 
 
