@@ -1,7 +1,8 @@
 <?php
 
-use Illuminate\Database\Seeder;
 use App\Usuario;
+
+use Illuminate\Database\Seeder;
 
 class usuarioSeeder extends Seeder
 {
@@ -13,8 +14,8 @@ class usuarioSeeder extends Seeder
     public function run()
     {
         Usuario::create([
-            'usuario' => 'root', 
-            'password' => bcrypt('123'),
+            'usuario' => 'topcom', 
+            'password' => bcrypt('tsw.2021'),
             'nombre' => 'root', 
             'curp' => 'root', 
             'rfc' => 'root', 
