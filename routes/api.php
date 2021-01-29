@@ -18,8 +18,8 @@ Route::group(['prefix' => 'web-services'], function () {
         Route::get('get-articulos', 'ArticulosController@getArticulos');
         Route::post('registro-usuarios', 'UsuarioController@registrar');
         Route::post('login', 'UsuarioController@login');
-        Route::post('login', 'UsuarioController@login');
-
+        Route::post('agregar-carrito', 'CarritoController@agregarArticulo');
+        Route::get('get-carrito/{usuario}', 'CarritoController@getCarrito');
     });
 });
 

@@ -78,6 +78,8 @@
                     <a href="/api/web-services/get-articulos">Articulos</a>
                     <a href="/api/web-services/registro-usuarios">Registro</a>
                     <a href="/api/web-services/login">Login</a>
+                    <a href="/api/web-services/agregar-carrito">Agregar al carrito</a>
+                    <a href="/api/web-services/get-carrito">Carrito compras</a>
                 </div>
             </div>
         </div>

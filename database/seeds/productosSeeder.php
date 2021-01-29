@@ -105,7 +105,7 @@ class productosSeeder extends Seeder
         $nuevoProducto = new Articulo();
         $nuevoProducto->nombre = 'UNIDAD SSD ADATA SU650 960GB SATA III 2.5"';
         $nuevoProducto->descripcion = 'ADATA SU650. SDD, capacidad: 960 GB, Factor de formato SSD: 2.5", Velocidad de lectura: 520 MB/s, Velocidad de escritura: 450 MB/s, Velocidad de transferencia de datos: 6 Gbit/s, Componente para: PC/computadora portátil';
-        $nuevoProducto->precio = '$2,614.64';
+        $nuevoProducto->precio = '2,614.64';
         $nuevoProducto->imagen = '/img/productos/memorias/05.jpg';
         $nuevoProducto->stock = 12;
         $nuevoProducto->save();
@@ -195,7 +195,7 @@ class productosSeeder extends Seeder
         $nuevoProducto = new Articulo();
         $nuevoProducto->nombre = 'MOUSE GAMER THERMALTAKE TT ESPORTS IRIS OPTICAL USB';
         $nuevoProducto->descripcion = 'MOUSE GAMER THERMALTAKE TT ESPORTS IRIS OPTICAL USB RGB MO-IRS-WDOHBK';
-        $nuevoProducto->precio = '$757.48';
+        $nuevoProducto->precio = '757.48';
         $nuevoProducto->imagen = '/img/productos/perifericos/01.jpg';
         $nuevoProducto->stock = 82;
         $nuevoProducto->save();
@@ -203,7 +203,7 @@ class productosSeeder extends Seeder
         $nuevoProducto = new Articulo();
         $nuevoProducto->nombre = 'MOUSE LOGITECH GAMING G603 INALAMBRICO';
         $nuevoProducto->descripcion = 'MOUSE LOGITECH GAMING G603 INALAMBRICO LIGHTSPEED 910-005100';
-        $nuevoProducto->precio = '$998.76';
+        $nuevoProducto->precio = '998.76';
         $nuevoProducto->imagen = '/img/productos/perifericos/02.jpg';
         $nuevoProducto->stock = 4;
         $nuevoProducto->save();
