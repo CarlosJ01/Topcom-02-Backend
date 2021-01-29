@@ -80,6 +80,13 @@
                     <a href="/api/web-services/login">Login</a>
                     <a href="/api/web-services/agregar-carrito">Agregar al carrito</a>
                     <a href="/api/web-services/get-carrito">Carrito compras</a>
+                    <a href="/api/web-services/quitar-articulo">Quitar articulo carrito</a>
+                    <a href="/api/web-services/cancelar-compra/1">Cancelar compra</a>
+                </div>
+                <hr>
+                <div class="links">
+                    <a href="/api/web-services/comprar/1">Comprar</a>
+                    <a href="/api/web-services/get-compras/1">Compras</a>
                 </div>
             </div>
         </div>

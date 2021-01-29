@@ -20,6 +20,10 @@ Route::group(['prefix' => 'web-services'], function () {
         Route::post('login', 'UsuarioController@login');
         Route::post('agregar-carrito', 'CarritoController@agregarArticulo');
         Route::get('get-carrito/{usuario}', 'CarritoController@getCarrito');
+        Route::post('quitar-articulo', 'CarritoController@quitarArticulo');
+        Route::post('cancelar-compra/{usuario}', 'CarritoController@cancelarCompra');
+        Route::post('comprar/{usuario}', 'ComprasController@comprar');
+        Route::get('get-compras/{usuario}', 'ComprasController@getCompras');
     });
 });
 
